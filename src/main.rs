@@ -1,7 +1,6 @@
 use askama::Template;
 use axum::{
     extract::Form,
-    http::StatusCode,
     response::{Html, Redirect},
     routing::{get, post},
     Router,
